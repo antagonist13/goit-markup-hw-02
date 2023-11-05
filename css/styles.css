@@ -51,6 +51,7 @@ ul {
   text-transform: capitalize;
   line-height: 1.11;
   text-align: center;
+  color: #2e2f42;
 }
 .text-title {
   font-family: Roboto;
@@ -59,6 +60,7 @@ ul {
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
+  color: #2e2f42;
 }
 .text {
   font-family: Roboto;
@@ -79,7 +81,7 @@ ul {
   color: #2e2f42;
 }
 .text-medium:hover,
-.text-medium:active {
+.text-medium:focus {
   color: var(--OCEAN, #404bbf);
 
   /* Body Medium */
@@ -112,6 +114,9 @@ ul {
 }
 .logo1 {
   color: #2e2f42;
+}
+.logo2 {
+  color: #f4f4fd;
 }
 .address {
   font-style: normal;
@@ -148,7 +153,7 @@ ul {
 .contact {
   font-size: 16px;
   justify-content: center;
-  letter-spacing: 0.64px;
+  letter-spacing: 0.02em;
   flex-shrink: 0;
   color: #434455;
   line-height: 1.5;
